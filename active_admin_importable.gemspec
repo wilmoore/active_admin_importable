@@ -2,11 +2,11 @@
 require File.expand_path('../lib/active_admin_importable/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Kevin Horst"]
-  gem.email         = ["krhorst@gmail.com"]
-  gem.description   = "CSV import for Active Admin"
+  gem.authors       = ["Wil Moore III"]
+  gem.email         = ["wil.moore@wilmoore.com"]
+  gem.description   = "A fork of krhorst/active_admin_importable, a CSV importer for Active Admin."
   gem.summary       = "Add CSV import to Active Admin resources with one line."
-  gem.homepage      = "http://github.com/krhorst/active_admin_importable"
+  gem.homepage      = "http://github.com/wilmoore/active_admin_importable"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
