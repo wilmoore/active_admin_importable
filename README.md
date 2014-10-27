@@ -14,7 +14,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'active_admin_importable', :git => 'https://github.com/wilmoore/active_admin_importable.git', :tag => '1.1.4'
+    gem 'active_admin_importable', :git => 'https://github.com/wilmoore/active_admin_importable.git', :tag => 'v1.1.4'
 
 And then execute:
 
